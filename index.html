@@ -51,24 +51,24 @@
 
         <main>
             <article>
-                <img src="https://picsum.photos/1200/600?random=1" alt="Placeholder Image" width="1200" height="600" loading="lazy">
-                <h2>Featured Article Title</h2>
+                <img onclick="changePic1()" id="img1" src="https://picsum.photos/1200/600?random=1" alt="Placeholder Image" width="1200" height="600" loading="lazy">
+                <h2 id="title1">Featured Article Title</h2>
                 <div class="article-meta">Published on October 22, 2026</div>
-                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p id="content1">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </article>
 
             <article>
-                <img src="https://picsum.photos/1200/600?random=2" alt="Content Graphic" width="1200" height="600" loading="lazy">
-                <h2>Secondary Article Title</h2>
+                <img onmouseover="changePic2()" id="img2" src="https://picsum.photos/1200/600?random=2" alt="Content Graphic" width="1200" height="600" loading="lazy">
+                <h2 id="title2">Secondary Article Title</h2>
                 <div class="article-meta">Published on October 21, 2026</div>
-                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p id="content2">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </article>
         </main>
 
         <aside>
-            <img src="https://picsum.photos/800/600?random=3" alt="Sidebar Graphic" width="800" height="600" loading="lazy">
-            <h3>Sidebar Widget</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img ondblclick="changePic3()" id="img3" src="https://picsum.photos/800/600?random=3" alt="Sidebar Graphic" width="800" height="600" loading="lazy">
+            <h3 id="title3">Sidebar Widget</h3>
+            <p id="content3">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </aside>
 
     </div>
@@ -81,7 +81,7 @@
     </footer>
 
 <!--    Add javascript code here-->
-    <script> 
+    <script src="js/script.js"> 
     
 
     </script>
